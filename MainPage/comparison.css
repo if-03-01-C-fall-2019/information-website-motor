@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: Century Gothic;
+  font-family: "Century Gothic", sans-serif;
 }
 
 body{
@@ -11,24 +11,24 @@ body{
   background-repeat: no-repeat;
 }
 
-ul{
+nav ul{
   float: right;
   margin-top: 0.95vh;
   margin-left: 0.25vh;
   margin-right: 0.25vh;
 }
 
-ul li{
+nav ul li{
   display: inline-block;
   transition: box-shadow 0.5s;
   padding: 0.4vh 2vh;
 }
 
-li:hover{
+nav li:hover{
   box-shadow: 0px 0px 0px 2px black inset;
 }
 
-ul li a{
+nav ul li a{
   text-decoration: none;
   color: black;
 }
@@ -62,7 +62,6 @@ ul li a{
 }
 .btn{
   border: 1px solid black;
-  padding: 10px 30px;
   color: black;
   text-decoration: none;
   display: inline-block;
