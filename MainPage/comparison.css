@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+body{
+  background-image: url("comparisonbackground.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+ul{
+  float: right;
+  margin-top: 0.95vh;
+  margin-left: 0.25vh;
+  margin-right: 0.25vh;
+}
+
+ul li{
+  display: inline-block;
+  transition: box-shadow 0.5s;
+  padding: 0.4vh 2vh;
+}
+
+li:hover{
+  box-shadow: 0px 0px 0px 2px black inset;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.logo img{
+  width:30vh;
+  position: relative;
+  top:0%;
+  right: 0%;
+  margin-left:0.7vh;
+  margin-top:0.7vh;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title > h1{
+  color: black;
+  font-size: 70px;
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  border: 1px solid black;
+  padding: 10px 30px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  transition: box-shadow 0.5s;
+  padding: 0.4vh 2vh;
+}
+
+.btn:hover{
+  box-shadow: 0px 0px 0px 2px black inset;
+}
