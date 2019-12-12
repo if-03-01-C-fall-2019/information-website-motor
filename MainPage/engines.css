@@ -4,12 +4,17 @@
   font-family: "Century Gothic", sans-serif;
 }
 
-body{
+.combustion-background{
   background-image: url("mercedesbackground.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.electric-background{
+  background-image: url("teslabackgrond.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 nav ul{
