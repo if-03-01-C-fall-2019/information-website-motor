@@ -49,10 +49,8 @@ nav ul li a{
 }
 
 .title{
-  position: absolute;
-  top: 17%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+ text-align: center;
+margin: 50px;
 }
 
 .title > h1{
@@ -66,27 +64,16 @@ nav ul li a{
   left: 50%;
   transform: translate(-50%,-50%);
 }
-.text{
-  position: absolute;
-  top: 40%;
-  left: 30%;
-  transform: translate(-40%,-25%);
-}
+
 .text > p{
   font-size: 20px;
 }
 .text > h2{
   font-size: 30px;
 }
-.btn{
-  border: 1px solid black;
-  color: black;
-  text-decoration: none;
-  display: inline-block;
-  transition: box-shadow 0.5s;
-  padding: 0.4vh 2vh;
-}
 
-.btn:hover{
-  box-shadow: 0px 0px 0px 2px black inset;
+.text{
+  max-width: 960px;
+  margin: auto;
+margin-bottom: 50px;
 }
