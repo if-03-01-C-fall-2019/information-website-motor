@@ -44,7 +44,7 @@ nav ul li a{
 
 .title{
   position: absolute;
-  top: 50%;
+  top: 17%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -78,9 +78,9 @@ table {
   border-collapse: collapse;
   width: 80%;
   position: absolute;
-  top: 80%;
+  top: 55%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-55%,-50%);
 }
 
 td, th {
