@@ -5,7 +5,7 @@
 }
 
 body{
-  background-image: url("contactbackground.jpg");
+  background-image: url("comparisonbackground.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -74,8 +74,10 @@ nav ul li a{
 }
 .text{
   position: absolute;
-  top: 40%;
-  left: 30%;
-  transform: translate(-40%,-25%);
+  top: 30%;
+  left: 5%;
   font-size: 20px;
+}
+.text > h2{
+  font-size: 30px;
 }
