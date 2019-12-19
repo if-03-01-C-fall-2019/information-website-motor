@@ -96,3 +96,7 @@ tr:nth-child(even) {
 .center{
   text-align: center;
 }
+.head {
+  background-color: black;
+  color: white;
+}
