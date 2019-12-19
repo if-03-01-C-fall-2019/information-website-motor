@@ -44,7 +44,7 @@ nav ul li a{
 
 .title{
   position: absolute;
-  top: 50%;
+  top: 17%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -71,4 +71,11 @@ nav ul li a{
 
 .btn:hover{
   box-shadow: 0px 0px 0px 2px black inset;
+}
+.text{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-40%,-25%);
+  font-size: 20px;
 }
