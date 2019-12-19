@@ -78,7 +78,7 @@ table {
   border-collapse: collapse;
   width: 80%;
   position: absolute;
-  top: 55%;
+  top: 78%;
   left: 50%;
   transform: translate(-55%,-50%);
 }
@@ -99,4 +99,26 @@ tr:nth-child(even) {
 .head {
   background-color: black;
   color: white;
+}
+.text1{
+  position: absolute;
+  top:30%;
+  left: 6%;
+  transform: translate(0%,-25%);
+}
+.text2{
+  position: absolute;
+  top:120%;
+  left: 6%;
+  transform: translate(0%,-25%);
+}
+.text > h2{
+  font-size: 30px;
+}
+.text > p{
+  font-size: 20px;
+}
+.end{
+  position: absolute;
+  top: 150%;
 }
